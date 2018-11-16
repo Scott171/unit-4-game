@@ -7,6 +7,7 @@
     <title>Unit 4</title>
 <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
@@ -15,6 +16,7 @@
 
 <body>
     <h1>Crystals Collector!</h1>
+    <br>
     <div class="instructions">
 <p>You will be given a random number at the start of the game.</p>
 <br>
@@ -29,27 +31,35 @@
  </div>
 
 <div class="Gem-score">
-
+        <p>Number to guess is:</p>
+        <span id="number-to-guess"></span>
+       
 </div>
-
-<div class="win">
-
-
-</div>
-<div class="gems">
-
-
-</div>
-
 <div class="Your-score">
-<p>Your Total Score Is:</p>
+        <p>Your Total Score Is:</p>
+        <span id="counter"></span>
+        </div>
+<div class="score">
+<p>Wins:</p>
+<span id="wins"></span>
+<p>Losses:</p>
+<span id="losses"></span>
 </div>
+<br>
+<div class="gems">
+        <img src="assets/images/blue.png" class=gemImage id="blue" alt="Blue Gem">
+        <img src="assets/images/ruby.png" class=gemImage id="ruby" alt="Ruby Gem">
+        <img src="assets/images/emerald.png" class=gemImage id="emerald" alt="Emerald Gem">
+        <img src="assets/images/diamond.png" class=gemImage id="diamond" alt="diamond Gem">
+</div>
+
+
 
 <div class="score">
 
 </div>
 
-
+<script src="assets/Javascript/game.js"></script>
 </body>
 
 
